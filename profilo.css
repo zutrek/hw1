@@ -1,0 +1,546 @@
+.profilo{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top:5vh;
+    font-family: poppins;
+}
+
+#titolo{
+    font-size:30px;
+    color:black;
+    font-weight:500;
+}
+
+.info{
+    margin-top: 8vh;
+    margin-right: 10vw;
+   
+}
+#info , #titolo_carrello{
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    font-family: poppins;
+}
+
+
+.nome_cognome{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.info_carrello{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+
+
+
+
+.profilo_box{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    height:60vh;
+    width:50vw;
+    border-radius: 1px;
+    border:1px solid #ccc;
+}
+
+
+
+    
+#checkout{
+    background-color: #FEDB22;
+    border: none;
+    height:6vh;
+    margin-top:2vh;
+    font-family: poppins;
+    font-weight: 500;
+    width: 6.5vw;
+    cursor:pointer;
+}
+
+#checkout:hover {
+    background-color: #1F2D3D;
+    color: #F5F5F5;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+body{
+    margin:0px;
+    background-color:white;
+}
+
+nav{
+    margin-top:1.5vh;
+    background-color: #2a3847;
+    width:98.9vw;
+    height: 7vh;
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.pre-head-sinistra{
+height:80%;
+width:50%;
+
+display:flex;
+flex-direction: row;
+justify-content:start;
+margin-bottom:1.6vw;
+margin-left:2.5vw;
+}
+
+.pre-head-sinistra #cuffia {
+     width:auto;
+     height:auto;
+     margin-right:0.5vw;
+     margin-top:1.3vh;
+     
+     
+}
+
+.pre-head-sinistra p{
+    
+    color: #f8f8f8;
+    font-size:14px;
+    font-family: poppins ;
+    font-weight: 400;
+    margin-top:2.3vh;
+
+}
+
+.pre-head-destra{
+height: 80%;
+width: 50%;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+margin-bottom: 1.5vh;
+margin-left: 40vw;
+}
+
+.pre-head-destra span{
+
+    font-weight: 700;
+    font-family: poppins;
+    font-size: 14px;
+    color: #f8f8f8;
+    
+    margin-left:2vw;
+}
+
+.stella {
+    height: 100%;
+    width:auto;
+   display:flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   margin-left: 0.5vw;
+  
+   margin-right: -1.8vw;
+}
+
+.stella div{
+    
+    height:1.3vh;
+    width:1.2vw;
+    margin-bottom: 1vh;
+}
+
+
+header{
+    height: 41vh;
+    width: 98.9vw;
+    
+    background-color: whitesmoke;
+}
+
+
+.head-sez1{
+height:15vh;
+width: 98.9vw;
+background-color: #1F2D3D;
+display: flex;
+justify-content: flex-start;
+
+}
+
+
+
+#logo{
+    
+    width: auto;
+    padding-top: 2vh;
+    padding-left:2vw ;
+}
+
+
+.head-sez1 #logo img{
+    height: 9.5vh;
+    
+}
+
+
+#searchbar {
+    margin-top: 4.5vh;
+    height: 5vh;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 6vw;
+    border-radius: 5px;
+    font-family: poppins;
+    font-size: 14px;
+    color: lightblack;
+}
+
+#searchbar #menu_tendina {
+    border:none;
+    
+    height: 4.6vh;
+    margin-left: 0.1vw;
+    color: gray;
+    cursor: pointer;
+    width: 8vw;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#cerca_button {
+    height: 5.3vh;
+    width: 7vw;
+    background-color: #FEDB22;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    cursor: pointer;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#ricerca {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchbar span {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 2.5vw;
+    color: black;
+    font-family: poppins;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+.head-sez1_destra{
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: poppins;
+    margin-left:3vw;
+}
+
+#accesso{
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    cursor:pointer;
+
+    border: 0.1px solid lightgray;
+    padding:1.9vh;
+
+}
+
+.head-sez1_destra img{
+    height: 3vh;
+    width:1.5vw;
+    padding-right:1vh;
+}
+
+.head-sez1_destra span{
+
+    padding-left:2vh;
+    padding-right: 2vh;
+}
+
+
+#carrello{
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    
+    cursor: pointer;
+    border: 0.1px solid lightgray;
+    padding:1.9vh;
+}
+
+
+#email{
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    cursor: pointer;
+    width: auto;
+    border: 0.1px solid lightgray;
+    padding:1.9vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.head-sez2{
+background-color: #1F2D3D;
+height: 8vh;
+width: 98.9vw;
+border-top: 1px solid lightgrey;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+color: white;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: poppins;
+
+}
+
+.categorie_button{
+
+    display: flex;
+justify-content: flex-start;
+align-items: center;
+background-color: #2a3847;
+margin-left:2vw;
+
+font-size: 15px;
+
+}
+
+.categorie_button  img{
+    height:19px;
+    width:19px;
+    padding-left: 10px;
+    padding-top: 2px;
+
+
+}
+
+.categorie_button span{
+   padding-top: 1.4vh;
+   padding-bottom: 1.4vh;
+    padding-right:9vw;
+    font-weight: 500;
+    padding-left: 1vw;
+}
+
+
+
+.navbar{
+    margin-left:7vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.navbar a{
+    height: auto;
+    width:auto;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar #bag{
+    height: 4vh;
+    width: 2vw;
+    margin-left: 1vw;
+}
+
+
+#offerta span{
+    margin-left:10vw;
+    background-color: #2a3847;
+    padding-top: 1.4vh;
+   padding-bottom: 1.4vh;
+    padding-right:1vw;
+    font-weight: 500;
+    padding-left: 1vw;
+    font-size: 15px;
+}
+
+
+.pre-footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    height:80vh;
+    width:98.9vw;
+    padding-top: 10vh;
+    
+    background-color: #1F2D3D;
+    margin-top:12vh;
+    
+}
+
+.sez-footer{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+    font-family: poppins;
+    margin-left:5.5vw;
+
+    
+}
+
+.sez-footer h1{
+    color: #FEDB22;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.sez-footer span{
+    padding:1vh;
+    color: white;
+    font-size: 14px;
+}
+
+
+.sez-footer #box-email{
+    height: 6vh;
+    width: 18vw;
+    background-color:white;
+    
+    border-radius: 5px;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.sez-footer #box-email span{
+    color:#6d6d6d;
+    padding-left: 1vw;
+
+}
+
+.sez-footer #iscriviti-button span{
+padding-left:1vw;
+     color: black;
+}
+.sez-footer #iscriviti-button{
+    height:6vh;
+    width: 18vw;
+    background-color: #FEDB22;
+   
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 3.3vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer{
+    height: 14vh;
+    width:98.9vw;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2D3D;
+}
+
+.footer img{
+    height:10vh;
+    width:18vw;
+}
+
+.end-footer{
+    background-color: #1F2D3D;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 23vh;
+    width: 98.9vw;
+    font-family: poppins;
+    color:white;
+    font-size:14px;
+}
+
+.end-footer span{
+    padding-top:5vh;
+}
+
+
+.hidden{
+    display:none;
+}
